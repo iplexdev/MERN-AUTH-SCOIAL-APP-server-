@@ -22,8 +22,8 @@ if (process.env.NODE_ENV === 'production') {
 // run the server in https mode locally
 else {
   const certOptions = {
-    key: fs.readFileSync(path.resolve('certs/server.key')),
-    cert: fs.readFileSync(path.resolve('certs/server.crt'))
+    key: fs.readFileSync(path.resolve('certs/localhost.key')),
+    cert: fs.readFileSync(path.resolve('certs/localhost.cert'))
   }
   server = https.createServer(certOptions, app)
 }
