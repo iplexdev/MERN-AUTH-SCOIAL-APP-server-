@@ -1,7 +1,5 @@
 # React Social Authentication Server
 
-![React Social Auth](https://i.imgur.com/acA83LR.gif)
-
 ## Medium posts that detail this repo
 * [Twitter, Google, Facebook, Github version on Codeburst](https://medium.com/p/862d59583105)
 * [Twitter only version on ITNEXT](https://medium.com/p/2f6b7b0ee9d2) (use 'twitter-auth' branch)
@@ -9,7 +7,7 @@
 ## Getting Started
 
 ```
-git clone https://github.com/funador/react-auth-server.git
+git clone https://github.com/iplexdev/MERN-AUTH-SCOIAL-APP-server-.git
 cd react-auth-server
 npm run dev
 ```
@@ -38,11 +36,5 @@ touch .env
 npm run dev
 ```
 
-#### Deploy
-Everything is set up to deploy to Heroku, you just need to plug in the environment variables for the providers.
-
 ### Client
-Please follow the instructions [for setting up the client repo](https://github.com/funador/react-auth-client).
-
-### Issues
-Something not working?  Please [open an issue](https://github.com/funador/react-auth-server/issues) or submit a PR.
+Please follow the instructions [for setting up the client repo](https://github.com/iplexdev/MERN-AUTH-SOCIAL-APP-client-.git).
